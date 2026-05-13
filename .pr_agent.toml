@@ -1,0 +1,12 @@
+[pr_reviewer]
+require_security_review = true
+require_tests_review = true
+num_code_suggestions = 5
+
+[pr_description]
+publish_labels = true
+use_bullet_points = true
+
+[config]
+max_model_tokens = 2048
+verbosity_level = 1
